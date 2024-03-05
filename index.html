@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agência de Viagens</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    
+  </style>
+</head>
+<body>
+
+  <!-- Barra de navegação -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Meu Primeiro Projeto</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#destinos">Destinos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Seção de destinos -->
+  <section id="destinos" class="container mt-4">
+    <h2>Destinos Populares</h2>
+    <div class="row">
+      <!-- Exemplo de card para um destino -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="img/images.jpeg" class="card-img-top" alt="Destino 1">
+          <div class="card-body">
+            <h5 class="card-title">Destino 1</h5>
+            <p class="card-text">Descrição breve do destino.</p>
+            <a href="#" class="btn btn-primary">Saiba mais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Adicione mais cards para outros destinos, se necessário -->
+    </div>
+  </section>
+
+  <!-- Seção de contato -->
+  <section id="contato" class="container mt-4">
+    <h2>Entre em Contato</h2>
+    <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+    
+    <!-- Exemplo de formulário de contato (não funcional) -->
+    <form>
+      <div class="form-group">
+        <label for="nome">Nome:</label>
+        <input type="text" class="form-control" id="nome" placeholder="Seu Nome">
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Seu Email">
+      </div>
+      <div class="form-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea class="form-control" id="mensagem" rows="3" placeholder="Sua Mensagem"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-light text-center p-3 mt-4">
+    © 2024 Meu Primeiro site
+  </footer>
+
+  <!-- Scripts do Bootstrap e jQuery (necessários para alguns recursos do Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
